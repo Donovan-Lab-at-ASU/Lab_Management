@@ -5,10 +5,14 @@ Welcome to the Donovan Lab! Below are the steps to help you get started working 
 If you are new employee to ASU - 
 * Attend new employee orientation
 * Establish you ASURite ID, set up your email and alias, and notify Dr. Donovan
+* Complete your I9 and new hire paperwork package
+* Complete required trainings ('EHS Fire Safety Annual Training', 'ASU - Your Duty to Report', 'Arizona Public Service Orientation') 
 
 If you are a new student to ASU - 
 * You will have gotten an ASURite ID when you applied, make sure Dr. Donovan knows what it is
-* [tbd]
+* Complete required trainings (see above under new employee)
+* Enroll in classes - meet with Dr. Donovan prior to registration to discuss
+* Pay student fees
 
 Upon joining the lab - 
 * Ask Dr. Donovan to invite you to join the lab google drive, lab google calendar, lab Slack, GDCS Slack, and github
