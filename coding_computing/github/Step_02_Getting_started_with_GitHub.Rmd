@@ -39,12 +39,50 @@ You will need a folder on your local computer dedicated soley for the GitHub pro
 
 ## Step 2: Create and clone a repo
 
+Creating a repository or repo on GitHub is very straightforward. Once it's created you can clone it and connect it to your RStudio to start working on your project, or if you've already started a project, copy over the project files onto the repository. 
+
+### a. Creating a repo on GitHub
+
+Go to the Donovan Lab repository tab (or the repo tab on your personal page if it's not a lab project) and click on the green "New" button.
+
+![create 1](https://github.com/Donovan-Lab-at-ASU/Lab_Management/blob/main/coding_computing/github/pngs/create_repo_1.png)
+
+Now you'll fill out all the things about your repo.
+
+* **Repository Name:** For the name choose something specific without being too lenghty, and without space. To get around no spaces I use "_" but some people use camelcase (ie: MyRepo) or "-".
+* **Description:** self explainatory
+* **Public or Private:** Theoretically we should aim to make everything we do public, because opendata science is cool! Personally I usually start out with my repos on private and then switch it over to public once I'm happy with the shape of my code and everything. Even on private you can have collaborators on it. 
+* **Add a README file:** This is a .md file in the main folder of your repo. I always have one and I use it to write up a little description of what can be found in the folder. If you go on the lab GitHub pages you can see all the README info displayed below the list of folders.
+* **.gitignore:** This is something I've only recently started to incorporate into my workflow. You can add file names here that you don't want on GitHub but that you still want on our local project. Basically a list of things you're telling Git to ignore!
+* **license:** never used this. Maybe one day I will.
+
+![create 2](https://github.com/Donovan-Lab-at-ASU/Lab_Management/blob/main/coding_computing/github/pngs/create_repo_2.png)
+
+### b. Cloning a repo
+
+Cloning a repo is basically just connecting the GitHub repo you've just created to your to local RStudio. We are going to clone the Lab_Management repository that lives in the Donovan-Lab-at-ASU organization, but the steps would be exactly the same if you were cloning a personal repo. 
+
+Click on the green "Code" button and a little window will pop up underneath. There are a couple options under the "Clone" tab but we will stick tiwht HTTPS. I've never used any of the other options, from what I can tell they're for more advanced developer type coders (not me!). Copy the link you see by clicking hte overlapping rectangle icon you see to the right.
+
+![clone 1](https://github.com/Donovan-Lab-at-ASU/Lab_Management/blob/main/coding_computing/github/pngs/clone_repo_1.png)
+Now go and open RStudio and click File-> New Project and a window labeled "New Project Wizard" will show up. Choose the third option "Version Control"
+
+![clone 3](https://github.com/Donovan-Lab-at-ASU/Lab_Management/blob/main/coding_computing/github/pngs/clone_repo_3.png)
+Choose the option "Git"
+
+![clone 4](https://github.com/Donovan-Lab-at-ASU/Lab_Management/blob/main/coding_computing/github/pngs/clone_repo_4.png)
+Paste the link to the repo you copied into the "Repository URL" box. If you hit tab it will automatically fill out the repo name in the "Project Directory Name" box. For the last box "Create project as directory of" you will browse and choose the folder you create in step one that is to house all your github projects/repos. This is going to be your first one! Yay!! When it's all filled click "Create Project" and everything from GitHub will download.
+
+![clone 5](https://github.com/Donovan-Lab-at-ASU/Lab_Management/blob/main/coding_computing/github/pngs/clone_repo_5.png)
+**When you've already started work on a project and want it on GitHub**
+You will go through all of the same steps. Once there is an empty project living in your github_projects folder you will just copy over all the files into it. It may be helpful to double check paths that you've explicitly written out in your code, in case there is anything calling to "Desktop". If that's the case I also recommend looking into the {here} package for workflow ease.
+
 
 ## Step 3: Creating a personal access token
 
 This part is copied and pasted from an issue I wrote on this found [here](https://github.com/Donovan-Lab-at-ASU/Lab_Management/issues/1).
 
-The new update in August 2021 made it so that we can't push/pull without authentication which we can do with a personal access token.
+The new update in August 2021 made it so that we can't push/pull (which we will learn about after this!) without authentication which we can do with a personal access token.
 
 How to create a personal access token:
 
@@ -57,7 +95,7 @@ How to create a personal access token:
 7. It gives you this crazy long string of numbers and letters. I have it copied and pasted onto a sticky, not very high security. You can always check on the token password whenever in the personal access tokens tab.
 8. When pushing and pulling you will now need to use this token instead of your Github log in password.
 
-![pat checkboxes](https://github.com/Donovan-Lab-at-ASU/Lab_Management/blob/main/coding_computing/github/pngs/PAT_checkboxes.png)
+![pat checkboxes](https://github.com/Donovan-Lab-at-ASU/Lab_Management/blob/main/coding_computing/github/pngs/PAT_checkboxes.png) 
 
 
 ## Step 4: Pulling and pushing
