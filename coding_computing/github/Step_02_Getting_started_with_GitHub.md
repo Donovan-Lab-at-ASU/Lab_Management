@@ -110,26 +110,29 @@ the right.
 
 ![clone
 1](https://github.com/Donovan-Lab-at-ASU/Lab_Management/blob/main/coding_computing/github/pngs/clone_repo_1.png)
+
 Now go and open RStudio and click File-> New Project and a window
 labeled “New Project Wizard” will show up. Choose the third option
 “Version Control”
 
 ![clone
 3](https://github.com/Donovan-Lab-at-ASU/Lab_Management/blob/main/coding_computing/github/pngs/clone_repo_3.png)
+
 Choose the option “Git”
 
 ![clone
 4](https://github.com/Donovan-Lab-at-ASU/Lab_Management/blob/main/coding_computing/github/pngs/clone_repo_4.png)
 Paste the link to the repo you copied into the “Repository URL” box. If
 you hit tab it will automatically fill out the repo name in the “Project
-Directory Name” box. For the last box “Create project as directory of”
-you will browse and choose the folder you create in step one that is to
+Directory Name” box. For the last box “Create project as directory” you
+will browse and choose the folder you create in step one that is to
 house all your github projects/repos. This is going to be your first
 one! Yay!! When it’s all filled click “Create Project” and everything
 from GitHub will download.
 
 ![clone
 5](https://github.com/Donovan-Lab-at-ASU/Lab_Management/blob/main/coding_computing/github/pngs/clone_repo_5.png)
+
 **When you’ve already started work on a project and want it on GitHub**
 You will go through all of the same steps. Once there is an empty
 project living in your github_projects folder you will just copy over
@@ -173,17 +176,20 @@ How to create a personal access token:
 ![pat
 checkboxes](https://github.com/Donovan-Lab-at-ASU/Lab_Management/blob/main/coding_computing/github/pngs/PAT_checkboxes.png)
 
-## Step 4: Pulling and pushing
+## Step 4: Pulling, commiting, and pushing
 
 When you use Github you will become very familiar with pulling and
-pushing. Pulling is when you update your local on your computer repo
-code with the updated version that is on Github. If you are working
-without collaborators it will always say that you are “Up to date”. But
-it’s good practice! If you are working with collaborators you should
-always pull when you first open the repo.
+pushing. Pulling is when you update your local computer repo code with
+the updated version that is on Github. Changes to the GitHub version can
+be made by other collaborators of if you choose to edit files directly
+via GitHub. If there are no changes it will say that you are “Up to
+date”. If you are working with collaborators you should always pull when
+you first open the repo. Working on an a non updated version and hten
+trying to push will cause “Fatal Errors”. These are usually easily fixed
+but sometimes it can be a little bit of a nightmare so I try to always
+pull when I first open a project to work on, even if I’m the only one
+working on it. I need to instill those good habits!
 
-When you are finished working on code you will want to push all your
-updates and changes to the Git repo so other people can see your work!
-Also it’s a great backup for if something happens to your computer or
-you spill an entire full Hydroflask on it (guilty…). To do this you will
-want to “commit” the changes you want to make
+### Pulling
+
+### Commiting and pushing
