@@ -193,3 +193,6 @@ working on it. I need to instill those good habits!
 ### Pulling
 
 ### Commiting and pushing
+
+### Now you try!
+try adding in a line with your name and date on the push_pull_practice and pushing it. Make sure to pull first in case someone has recently added to it
