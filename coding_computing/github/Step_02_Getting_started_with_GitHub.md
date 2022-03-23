@@ -192,6 +192,8 @@ working on it. I need to instill those good habits!
 
 ### Pulling
 
+PAT
+
 ### Commiting and pushing
 
 ### Now you try!
