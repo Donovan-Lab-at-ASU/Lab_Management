@@ -1,0 +1,57 @@
+---
+title: 'Step 2: Getting started with GitHub'
+author: "Juliette Verstaen"
+date: "`r format(Sys.Date())`"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Description:
+
+This is a short tutorial created to help people at the very start of their GitHub journey. At this point everyone should have already downloaded Git, created a GitHub account, and have successfully connected RStudio to their GitHub account.
+
+## Topics covered
+
+1. Creating a github folder for all your repos
+2. Create and Clone a repo
+3. Creating and using access token
+4. Pulling and pushing
+
+## Pre-tutorial readings:
+
+Please read chapter 15, chapter 16, and chapter 17 in [happygitr](https://happygitwithr.com/) written by Jenny Bryant about creating repositories (repos) and pulling/pushing. It is honestly probably gonna be a little confusing, but I hope with the tutorial it will make more sense. Also it's a great resource to have in general. When there are sections for GitHub, GitLab, and GitBucket you only need to read the GitHub sections. 
+
+## Let's Git it started!!
+
+### Step 1: Create a GitHub folder for all your repos
+
+You will need a folder on your local computer dedicated soley for the GitHub project repositories you are going to be working with. The standard convention is to create this folder in your home directory, not your desktop. So my directory path on my Mac is Users/julietteverstaen/git_projects/all_my_repos_here, and on my PC it's C:\\github_projects\\all_my_repos_here.
+
+## Step 2: Create and clone a repo
+
+
+## Step 3: Creating a personal access token
+
+This part is copied and pasted from an issue I wrote on this found [here](https://github.com/Donovan-Lab-at-ASU/Lab_Management/issues/1).
+
+The new update in August 2021 made it so that we can't push/pull without authentication which we can do with a personal access token.
+
+How to create a personal access token:
+
+1. Go to your Github settings and scroll to "Developer settings" in the list on the left
+2. Choose "Personal access tokens"
+3. Click on "Generate new token"
+4. Pick a name for your token and a length of time for it to work. I use 90 days, or sometimes a custom time since "no expiration" is not recommended. But it's still an option you can pick! You can always delete a token whenever you want and make a new one.
+5. Check whichever boxes you want the token to be used for. I just pick the repo ones since I only use it for pushing/pulling at the moment. I don't see what the issue would be with clicking all the boxes though. Maybe someone that knows more about this would be able to explain it better! Screen shot below of what I click.
+6. Generate token!
+7. It gives you this crazy long string of numbers and letters. I have it copied and pasted onto a sticky, not very high security. You can always check on the token password whenever in the personal access tokens tab.
+8. When pushing and pulling you will now need to use this token instead of your Github log in password.
+
+![pat checkboxes](https://github.com/Donovan-Lab-at-ASU/Lab_Management/blob/main/coding_computing/github/pngs/PAT_checkboxes.png)
+
+
+## Step 4: Pulling and pushing

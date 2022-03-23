@@ -1,0 +1,22 @@
+---
+title: "Step 1: Downloading and connecting to Github"
+author: "XXXX"
+date: "XXXX"
+output: github_document
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+
+
+Temporary file until someone comes along and does a write up on how to download and connect to GitHub!
+
+
+
+
+
+
