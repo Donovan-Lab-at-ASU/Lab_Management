@@ -1,7 +1,7 @@
-Step 2: Getting started with GitHub
+Getting started with GitHub
 ================
-Juliette Verstaen
-2022-03-23
+Written by: Juliette Verstaen \| Last updated on:
+March 23, 2022
 
 ## Description:
 
@@ -9,6 +9,21 @@ This is a short tutorial created to help people at the very start of
 their GitHub journey. At this point everyone should have already
 downloaded Git, created a GitHub account, and have successfully
 connected RStudio to their GitHub account.
+
+A little background, Git is a version control system which gives you the
+ability to go back to a previous version of a file, or code, or whatever
+you have saved or committed in the past. There are a couple different
+hosting systems that you can use. We’re going to use GitHub, but some
+people use GitLab or BitBucket. I’ve definitely had to go back in github
+time to find an old version of a file or a file that had been deleted by
+accident. I can show how to do this later if there’s interest and/or
+time.
+
+Let me preface this by saying that I am not a Git or GitHub master! I’ve
+had issues in the past that took me forever to figure out or I had to
+ask someone for help. There are a lot of ways and reasons to do things,
+but I’ll just share what I’ve learned to do at NCEAS and incorporate it
+into my own workflow!
 
 ## Topics covered
 
@@ -75,3 +90,16 @@ How to create a personal access token:
 checkboxes](https://github.com/Donovan-Lab-at-ASU/Lab_Management/blob/main/coding_computing/github/pngs/PAT_checkboxes.png)
 
 ## Step 4: Pulling and pushing
+
+When you use Github you will become very familiar with pulling and
+pushing. Pulling is when you update your local on your computer repo
+code with the updated version that is on Github. If you are working
+without collaborators it will always say that you are “Up to date”. But
+it’s good practice! If you are working with collaborators you should
+always pull when you first open the repo.
+
+When you are finished working on code you will want to push all your
+updates and changes to the Git repo so other people can see your work!
+Also it’s a great backup for if something happens to your computer or
+you spill an entire full Hydroflask on it (guilty…). To do this you will
+want to “commit” the changes you want to make
