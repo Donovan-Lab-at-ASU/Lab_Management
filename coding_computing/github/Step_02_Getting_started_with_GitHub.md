@@ -233,13 +233,13 @@ will be a message saying “Your branch is ahead…”. All that’s left is to
 click push! The same thing should happen asking you to enter your
 username and password.
 
-![commit
-4](https://github.com/Donovan-Lab-at-ASU/Lab_Management/blob/main/coding_computing/github/pngs/commit_4.png)
+![push
+1](https://github.com/Donovan-Lab-at-ASU/Lab_Management/blob/main/coding_computing/github/pngs/push_1.png)
 
 If everything goes right you should get a message box.
 
-![commit
-5](https://github.com/Donovan-Lab-at-ASU/Lab_Management/blob/main/coding_computing/github/pngs/commit_5.png)
+![push
+2](https://github.com/Donovan-Lab-at-ASU/Lab_Management/blob/main/coding_computing/github/pngs/push_2.png)
 This is the part where if you haven’t pulled before making any changes
 you could get a message saying that pushing didn’t work and that there
 is a “Fatal Error” which sounds terrifying but is always fixable!
