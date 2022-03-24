@@ -13,11 +13,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Description:
 
-This is a short tutorial created to help people at the very start of their GitHub journey. At this point everyone should have already downloaded Git, created a GitHub account, and have successfully connected RStudio to their GitHub account.
+This is a short tutorial created to help those at the very start of their GitHub journey. At this point everyone should have already downloaded Git, created a GitHub account, and have successfully connected RStudio to their GitHub account.
 
-A little background, Git is a version control system which gives you the ability to go back to a previous version of a file, or code, or whatever you have saved or committed in the past. There are a couple different hosting systems that you can use.  We’re going to use GitHub, but some people use GitLab or BitBucket. I’ve definitely had to go back in GitHub time to find an old version of a file, or a file that had been deleted by accident, or when I've accidentally dumped my entire full HydroFlask onto my laptop. 
+A little background, Git is a version control system which gives you the ability to go back to a previous version of a file, or code, or whatever you have saved or committed in the past. There are a couple different hosting systems that you can use.  We’re going to use GitHub, but some people use GitLab or BitBucket. I’ve definitely used GitHub to "go back in time" to find an old version of a file, or a file that had been deleted by accident, or when I've accidentally dumped my entire full HydroFlask onto my laptop. Spoiler alert, my computer died.
 
-Let me preface this by saying that I am not a Git or GitHub master! I’ve had issues in the past that took me forever to figure out or I had to ask someone for help. There are a lot of ways and reasons to do things, but I’ll just share what I’ve learned to do at NCEAS and incorporate it into my own workflow!
+Let me preface this by saying that I am not a Git or GitHub master! I’ve had issues in the past that took me forever to figure out or I had to ask someone for help. There are a lot of ways and reasons to do things, but I’ll just share what I’ve learned to do at NCEAS and from others and incorporate it into my own workflow!
 
 ## Topics covered
 
@@ -109,5 +109,8 @@ How to create a personal access token:
 When you use Github you will become very familiar with pulling and pushing. Pulling is when you update your local computer repo code with the updated version that is on Github. Changes to the GitHub version can be made by other collaborators of if you choose to edit files directly via GitHub. If there are no changes it will say that you are “Up to date”. If you are working with collaborators you should always pull when you first open the repo. Working on an a non updated version and hten trying to push will cause "Fatal Errors". These are usually easily fixed but sometimes it can be a little bit of a nightmare so I try to always pull when I first open a project to work on, even if I'm the only one working on it. I need to instill those good habits!
 
 ### Pulling
+
+
+
 
 ### Commiting and pushing
