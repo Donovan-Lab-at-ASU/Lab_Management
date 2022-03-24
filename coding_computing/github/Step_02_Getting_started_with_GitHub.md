@@ -1,35 +1,33 @@
 Getting started with GitHub
 ================
 Written by: Juliette Verstaen \| Last updated on:
-March 23, 2022
+March 24, 2022
 
 ## Description:
 
-This is a short tutorial created to help people at the very start of
-their GitHub journey. At this point everyone should have already
-downloaded Git, created a GitHub account, and have successfully
-connected RStudio to their GitHub account.
+This is a short tutorial created to help those at the very start of
+their GitHub journey. At this point you should have already downloaded
+Git, created a GitHub account, and have successfully connected RStudio
+to your GitHub account.
 
 A little background, Git is a version control system which gives you the
 ability to go back to a previous version of a file, or code, or whatever
 you have saved or committed in the past. There are a couple different
 hosting systems that you can use. We’re going to use GitHub, but some
-people use GitLab or BitBucket. I’ve definitely had to go back in GitHub
-time to find an old version of a file, or a file that had been deleted
-by accident, or when I’ve accidentally dumped my entire full HydroFlask
-onto my laptop.
+people use GitLab or BitBucket. I’ve definitely used GitHub to “go back
+in time” to find an old version of a file, or a file that had been
+deleted by accident, or when I’ve accidentally dumped my entire full
+HydroFlask onto my laptop. Spoiler alert, my computer died.
 
 Let me preface this by saying that I am not a Git or GitHub master! I’ve
-had issues in the past that took me forever to figure out or I had to
-ask someone for help. There are a lot of ways and reasons to do things,
-but I’ll just share what I’ve learned to do at NCEAS and incorporate it
-into my own workflow!
+had issues in the past that took me forever to figure out. I’ve also
+asked for help a ton.
 
 ## Topics covered
 
-1.  Creating a github folder for all your repos
-2.  Create and Clone a repo
-3.  Creating and using access token
+1.  Creating a GitHub folder for all your repos
+2.  Create and clone a repo
+3.  Creating and using a personal access token
 4.  Pulling and pushing
 
 ## Pre-tutorial readings:
@@ -37,10 +35,10 @@ into my own workflow!
 Please read chapter 15, chapter 16, and chapter 17 in
 [happygitr](https://happygitwithr.com/) written by Jenny Bryant about
 creating repositories (repos) and pulling/pushing. It is honestly
-probably gonna be a little confusing, but I hope with the tutorial it
-will make more sense. Also it’s a great resource to have in general.
-When there are sections for GitHub, GitLab, and GitBucket you only need
-to read the GitHub sections.
+probably gonna be a little confusing the first time through, but I hope
+with the tutorial it will make more sense. Also it’s a great resource to
+have in general. When there are sections for GitHub, GitLab, and
+GitBucket you only need to read the GitHub sections.
 
 ## Let’s Git it started!!
 
@@ -57,7 +55,7 @@ C:\\github_projects\\all_my_repos_here.
 
 Creating a repository or repo on GitHub is very straightforward. Once
 it’s created you can clone it and connect it to your RStudio to start
-working on your project, or if you’ve already started a project, copy
+working on your project. Or if you’ve already started a project, copy
 over the project files onto the repository.
 
 ### a. Creating a repo on GitHub
@@ -75,20 +73,21 @@ Now you’ll fill out all the things about your repo.
     “\_” but some people use camelcase (ie: MyRepo) or “-”.
 -   **Description:** self explainatory
 -   **Public or Private:** Theoretically we should aim to make
-    everything we do public, because opendata science is cool!
-    Personally I usually start out with my repos on private and then
-    switch it over to public once I’m happy with the shape of my code
-    and everything. Even on private you can have collaborators on it.
+    everything we do public, because open data science! Personally I
+    usually start out with my repos on private and then switch it over
+    to public once I’m happy with the shape of my code and everything.
+    Even on private you can have collaborators.
 -   **Add a README file:** This is a .md file in the main folder of your
     repo. I always have one and I use it to write up a little
     description of what can be found in the folder. If you go on the lab
-    GitHub pages you can see all the README info displayed below the
-    list of folders.
+    GitHub page you can see all the README info displayed below the list
+    of folders.
 -   **.gitignore:** This is something I’ve only recently started to
     incorporate into my workflow. You can add file names here that you
     don’t want on GitHub but that you still want on our local project.
     Basically a list of things you’re telling Git to ignore!
--   **license:** never used this. Maybe one day I will.
+-   **license:** never used this. Maybe one day I will. Let me know if
+    you do!
 
 ![create
 2](https://github.com/Donovan-Lab-at-ASU/Lab_Management/blob/main/coding_computing/github/pngs/create_repo_2.png)
@@ -103,9 +102,9 @@ cloning a personal repo.
 
 Click on the green “Code” button and a little window will pop up
 underneath. There are a couple options under the “Clone” tab but we will
-stick tiwht HTTPS. I’ve never used any of the other options, from what I
+stick with HTTPS. I’ve never used any of the other options, from what I
 can tell they’re for more advanced developer type coders (not me!). Copy
-the link you see by clicking hte overlapping rectangle icon you see to
+the link you see by clicking the overlapping rectangle icon you see to
 the right.
 
 ![clone
@@ -128,18 +127,20 @@ Directory Name” box. For the last box “Create project as directory” you
 will browse and choose the folder you create in step one that is to
 house all your github projects/repos. This is going to be your first
 one! Yay!! When it’s all filled click “Create Project” and everything
-from GitHub will download.
+from GitHub will populate
 
 ![clone
 5](https://github.com/Donovan-Lab-at-ASU/Lab_Management/blob/main/coding_computing/github/pngs/clone_repo_5.png)
 
 **When you’ve already started work on a project and want it on GitHub**
+
 You will go through all of the same steps. Once there is an empty
 project living in your github_projects folder you will just copy over
-all the files into it. It may be helpful to double check paths that
-you’ve explicitly written out in your code, in case there is anything
-calling to “Desktop”. If that’s the case I also recommend looking into
-the {here} package for workflow ease.
+all the files into it. Make sure you keep everything in the same files
+structure format. It may be helpful to double check paths that you’ve
+explicitly written out in your code, in case there is anything calling
+to “Desktop”. If that’s the case I also recommend looking into the
+{here} package for workflow ease.
 
 ## Step 3: Creating a personal access token
 
@@ -167,9 +168,7 @@ How to create a personal access token:
     explain it better! Screen shot below of what I click.
 6.  Generate token!
 7.  It gives you this crazy long string of numbers and letters. I have
-    it copied and pasted onto a sticky, not very high security. You can
-    always check on the token password whenever in the personal access
-    tokens tab.
+    it copied and pasted onto a sticky, not very high security.
 8.  When pushing and pulling you will now need to use this token instead
     of your Github log in password.
 
@@ -178,23 +177,74 @@ checkboxes](https://github.com/Donovan-Lab-at-ASU/Lab_Management/blob/main/codin
 
 ## Step 4: Pulling, commiting, and pushing
 
-When you use Github you will become very familiar with pulling and
+When you use GitHub you will become very familiar with pulling and
 pushing. Pulling is when you update your local computer repo code with
-the updated version that is on Github. Changes to the GitHub version can
+the updated version that is on GitHub. Changes to the GitHub version can
 be made by other collaborators of if you choose to edit files directly
 via GitHub. If there are no changes it will say that you are “Up to
 date”. If you are working with collaborators you should always pull when
-you first open the repo. Working on an a non updated version and hten
+you first open the repo. Working on an a non updated version and then
 trying to push will cause “Fatal Errors”. These are usually easily fixed
 but sometimes it can be a little bit of a nightmare so I try to always
 pull when I first open a project to work on, even if I’m the only one
-working on it. I need to instill those good habits!
+working on it. I need to cement those good habits!
 
 ### Pulling
 
-PAT
+To pull, click the blue down arrow located in the “Git” tab in RStudio.
+
+![pull](https://github.com/Donovan-Lab-at-ASU/Lab_Management/blob/main/coding_computing/github/pngs/pull_1.png)
+
+Now there should be a prompt that will ask you for your username and
+then your password. For your user name you will use your GitHub user
+name, and for the password you will use the long personal access token
+code you created earlier. Now everything should be up to date. If you
+just cloned the repo, it will say that you are already up to day.
 
 ### Commiting and pushing
 
-### Now you try!
-try adding in a line with your name and date on the push_pull_practice and pushing it. Make sure to pull first in case someone has recently added to it
+For practice, we’re going to use the pull_push_practice.R script that’s
+in the Lab_Management/coding_computing/github folder.
+
+Once you make changes and you want to push to GitHub, you need save the
+files and then commit your changes beforehand. I added in a line with my
+name and date. To commit this change, click the commit button to the
+left of the blue pull arrow
+
+![commit
+1](https://github.com/Donovan-Lab-at-ASU/Lab_Management/blob/main/coding_computing/github/pngs/commit_1.png)
+You’ll get a new window that opens up. A couple things going on here.
+The top left box has all the files were changes have been made. Check
+box by the code_computing/github/pull_push_practice.R. Then write a
+descriptive message in the “Commit message” box. Then you click commit!
+Side note, in the bottom box you can see lines of code were deleted
+(highlighted in red) and added (highlighted in green).
+
+![commit
+2](https://github.com/Donovan-Lab-at-ASU/Lab_Management/blob/main/coding_computing/github/pngs/commit_2.png)
+When it’s commited properly you’ll see a box like this.
+
+![commit
+3](https://github.com/Donovan-Lab-at-ASU/Lab_Management/blob/main/coding_computing/github/pngs/commit_3.png)
+
+Now we want to push. You should still be in the same window you commit
+things in, except now all the files you committed are gone, and there
+will be a message saying “Your branch is ahead…”. All that’s left is to
+click push! The same thing should happen asking you to enter your
+username and password.
+
+![commit
+4](https://github.com/Donovan-Lab-at-ASU/Lab_Management/blob/main/coding_computing/github/pngs/commit_4.png)
+
+If everything goes right you should get a message box.
+
+![commit
+5](https://github.com/Donovan-Lab-at-ASU/Lab_Management/blob/main/coding_computing/github/pngs/commit_5.png)
+This is the part where if you haven’t pulled before making any changes
+you could get a message saying that pushing didn’t work and that there
+is a “Fatal Error” which sounds terrifying but is always fixable!
+
+### Now you try!!
+
+Now it’s your turn! Add a line in the pull_push_practice.R script with
+your name and push the changes.
