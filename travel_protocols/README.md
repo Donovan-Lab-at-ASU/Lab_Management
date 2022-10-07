@@ -39,10 +39,14 @@ Once your request is approved, you can go ahead and book your flights and hotels
 
 ![Travel](./screenshots/travel-arrow.png)
 
-2. Search for flights using the form on the left hand side. 
+2. Search for flights using the form on the left hand side. Once you find one, you'll walk through the booking process within Concur. You eventually will be asked for the 4 digit request ID from your expense request. Also, make sure to not check the box asking if this is a federal grant (its not). Before you confirm the flight, you can hold the reservation for a day if you have questions for Mary or others.
 
-- not a federal grant
-- can hold for a day if you have questions 
+#### Hotels
+
+Hotels can be booked outside of Concur (often times cheaper and more flexible to do so). You will have to use your own payment method, but you will be reimbursed. Once you've booked the hotel, send a message to MyASUTRIP@exchange.asu.edu with the subject line: **Lodging Booked Outside of Concur**. Let them know the 4 digit request ID, the amount and attach the confirmation receipt. 
+
+
+*Note: For travel to Oahu or Hawai'i, ASU has a contract with the Price Hotel which has locations on both islands. If the dates you are travelling are available, ask for the group code and book outside of Concur*
 
 
 ### Travel Completion
