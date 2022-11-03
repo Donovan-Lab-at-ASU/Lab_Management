@@ -51,4 +51,24 @@ Hotels can be booked outside of Concur (often times cheaper and more flexible to
 
 ### Travel Completion
 
+Once your trip is complete, follow the steps below to create an expense report from the approved trip request. The information below can also be found on the [MYASU TRIP Travel Guide](https://www.asu.edu/fs/travel/MyASU-Trip-travel-guide.pdf).  
 
+1. Go to your requests tab and open the approved request. 
+
+![](./screenshots/open-reports.png)
+
+2. You will see a **Create Expense Report** in the top right. If you do not see this option your expense report has already been started for you. 
+
+![](./screenshots/create-expense.png)
+
+3. Click **Add Expense**. 
+
+![](./screenshots/add-expense.png)
+
+4. The Available Expenses tab in the pop up will list the available expenses to import. Click the checkbox next to the expenses related to the trip and select **Add To Report.**
+
+![](./screenshots/add-to-report.png)
+
+5. Add all expenses from your trip. If you rented a car or took an Uber or taxi don't forget to include a receipt. 
+
+6. Before you submit your expense report take a screenshot and send it to Mary. 
