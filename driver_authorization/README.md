@@ -10,26 +10,39 @@ General information on the process and a link to the training module can be foun
 
 2. Follow the 'Career EDGE' link (also found [here](https://asu.csod.com/ui/lms-learning-details/app/curriculum/cf857f28-f55a-4a44-8b5a-db59dd7f439a)), and you will be prompted to log in with your MyASU ID and password. 
 
-3. Follow the training instructions, and once the training is successfully completed, you should see a green 'Completed' status indicator on the right side.
+    <img src="./screenshots/driver-training-link.png" width=90% height=90%>
 
+3. Follow the training instructions, and once the training is successfully completed, you should see a green 'Completed' status indicator on the right side.
+    
     **Note**: After completing the Authorized Driver Training, it may take up to 72 hours to reflect the completed date on your record.
+
+    <img src="./screenshots/training-module.png" width=90% height=90%>
 
 ### Rental Car Driver Authorization
 Once you have completed the EHS Authorized Driver Training, you can start the driver authorization process through your MyASU home page.
 
 1. Log in to your MyASU and click on the 'Staff' tab at the top right, under your name.
 
+    <img src="./screenshots/myASU-header.png" width=90% height=90%>
+
 2. In the 'My Employment' box, naviagte to the 'Travel' heading and click on the Rental Car Driver Authorization link (can also be found [here](https://www.asu.edu/go/authorizeddriver)). 
 
+    <img src="./screenshots/driver-authorization-link.png" width=50% height=50%>
+
 3. Follow the steps in the portal:
-    - **Driver Record Consent**: Click the 'I consent'bubble.
+    - **Driver Record Consent**: Click the 'I consent' bubble.
     - **Driver's License Information**: Input your driver's license information into the proper fields, and click 'Submit License Data'.
     - **Driver Training Data**: Toggle the 'I Understand' slider to 'Yes'.
     - **Employee Acknowledgement**: Toggle the 'I Understand' slider to 'Yes', and click 'View Status'. You can return to this page periodically to monitor the progress of your Authorized Driver status.
 
-4. After you have completed the above steps, you should get an invitation email from HireRight to complete the motor vehicle record (MVR) check. Scroll down and click the 'Start Motor Vehicle Record Verification' button. 
+4. After you have completed the above steps, you should get an invitation email from HireRight to complete the motor vehicle record (MVR) check. Scroll down and click the 'Start Motor Vehicle Record Verification' button, and enter all necessary information for the MVR check.
+    
+    <img src="./screenshots/MVR-start.png" width=70% height=70%>
 
+5. Once the MVR Verification has been completed, you should get two different confirmation emails from HireRight. Save these in case there are any issues with getting your Driver Authorization completed. 
 
+    <img src="./screenshots/email2.png" width=90% height=90%>
+    <img src="./screenshots/email1.png" width=90% height=90%>
 
 This should be a relatively quick process, but if your authorization hasn’t been updated in a month or so, you should follow up with ASU’s Insurance Services ([insuranceservices@exchange.asu.edu](insuranceservices@exchange.asu.edu)). They may ask you for a Cost Center Number and Program Code to charge the MVR fee to, which are the following:
 - **Cost Center Number**: CC0639
