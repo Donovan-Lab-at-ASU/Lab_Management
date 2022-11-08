@@ -47,6 +47,4 @@ Once you have completed the EHS Authorized Driver Training, you can start the dr
     <img src="./screenshots/email2.png" width=90% height=90%>
 
 You can check the status of your Driver Authorization [here](https://www.asu.edu/go/authorizeddriver) under the 'Employee Acknowledgement' tab. 
-This should be a relatively quick process, but if your authorization hasn’t been updated in two weeks or so, you should follow up with ASU’s Insurance Services ([insuranceservices@exchange.asu.edu](insuranceservices@exchange.asu.edu)). They may ask you for a Cost Center Number and Program Code to charge the MVR fee to, which are the following:
-- **Cost Center Number**: CC0639
-- **Program Code**: PG13694
+This should be a relatively quick process, but if your authorization hasn’t been updated in two weeks or so, you should follow up with ASU’s Insurance Services ([insuranceservices@exchange.asu.edu](insuranceservices@exchange.asu.edu)). They may need a Cost Center Number and Program Code to charge the MVR fee to - check with Mary for these!
