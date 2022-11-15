@@ -71,4 +71,6 @@ Once your trip is complete, follow the steps below to create an expense report f
 
 5. Add all expenses from your trip. If you rented a car or took an Uber or taxi don't forget to include a receipt. 
 
-6. Before you submit your expense report take a screenshot and send it to Mary. 
+6. To submit an expense for food, select "Non-Standard Meal Allowance" from the drop-down menu as the expense type. 
+
+7. Before you submit your expense report take a screenshot and send it to Mary. 
