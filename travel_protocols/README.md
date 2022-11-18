@@ -10,8 +10,7 @@ ASU uses the Concur travel system, which you can login to [here](https://myasutr
 
 ![Concur Top Bar](./screenshots/top-bar-request.png)
 
-2. You will be asked to fill out the "header" of the request. For simplicity, create a name that includes your last name, the destination and the month. (dept, cost center, buisness type, prpupose). 
-*Note*: The Department ID, Cost Center and the Project/Gift/Grant/Program should always be the same as the ones shown here.
+2. You will be asked to fill out the "header" of the request. For simplicity, create a name that includes your last name, the destination and the month. (dept, cost center, buisness type, prpupose). Always check with Mary on which Project/Gift/Grant/Program should be used. Once you fill in the Project/Gift/Grant/Program, the Department ID and Cost Center will autofill. 
 
 ![Example Header](./screenshots/header-ex.png)
 
@@ -21,7 +20,7 @@ ASU uses the Concur travel system, which you can login to [here](https://myasutr
   - **Food costs**: You can estimate your food costs with just one expense line: select "Non-standard meal allowance", and then input how much you think you will spend per day times the number of days you'll be there. $50 is a generally a pretty good estimate.
 
 
-4. Once you've entered all expense estimates, click on "Request Details" in the top left corner, and then "Request Timeline" in the drop-down menu. This will take you to a page where you can request the the Cost Center manager. You'll want to input "Angelene C. Capello" - start typing Capello in the search bar and it should appear as an option. 
+4. Once you've entered all expense estimates, click on "Request Details" in the top left corner, and then "Request Timeline" in the drop-down menu. This will take you to a page where you can request the the Cost Center manager. You'll want to input "Maria Bellamy" - start typing Bellamy in the search bar and it should appear as an option. 
 
 5. Take a screen shot of this page and send it to Mary
 
