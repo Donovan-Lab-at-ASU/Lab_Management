@@ -1,4 +1,4 @@
-##Lab Computer Login and Use
+## Lab Computer Login and Use
 
 To log on to the lab computer:
 
