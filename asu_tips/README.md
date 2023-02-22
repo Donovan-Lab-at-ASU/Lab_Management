@@ -70,7 +70,7 @@ Once your trip is complete, follow the steps below to create an expense report f
 
 5. Add all expenses from your trip. If you rented a car or took an Uber or taxi don't forget to include a receipt. 
 
-- Note: if you used your own car, they are very picky about using the mileage calculator
+- Note: if you used your own car, they are very picky about using the mileage calculator to log your trips. Open up a new mileage expense, then click "mileage calculator" at the top, where you can input the addresses you visited that day. If you went to a conference center and then back to your Airbnb, for example, you can click "make this round trip". Once you save that the miles will update automatically. You can estimate it yourself but they WILL send it back to you if you don't use the calculator 
 
 6. To submit an expense for food, select "Non-Standard Meal Allowance" from the drop-down menu as the expense type. 
 
