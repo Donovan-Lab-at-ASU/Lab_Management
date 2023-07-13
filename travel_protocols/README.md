@@ -12,7 +12,7 @@ ASU uses the Concur travel system, which you can login to [here](https://myasutr
 
 2. You will be asked to fill out the "header" of the request. For simplicity, create a name that includes your last name, the destination and the month. (dept, cost center, buisness type, prpupose). Always check with Mary on which Project/Gift/Grant/Program should be used. Once you fill in the Project/Gift/Grant/Program, the Department ID and Cost Center will autofill. 
 
-![Example Header](./screenshots/header-ex.png)
+![Example Header](./screenshots/header-ex-redac.png)
 
 3. The next step is to add estimated expenses to the request. You should add flights, hotels, food and any other ground transportation you might need (ie taxis or buses to the airport). You may not know exactly how much everything will cost at this point - as a general rule of thumb, enter the maximum you think you will spend. You can always spend less than you request.
   - **Hotel costs**: Use the Department of Defense maximum lodging per diem for the location you are traveling - you can find that on this website [here](https://www.travel.dod.mil/Travel-Transportation-Rates/Per-Diem/Per-Diem-Rate-Lookup/). Multiply this rate by number of days you are staying in that location.
