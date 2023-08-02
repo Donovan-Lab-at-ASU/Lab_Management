@@ -42,7 +42,7 @@ Once your request is approved, you can go ahead and book your flights and hotels
 
 #### Hotels
 
-Hotels can be booked outside of Concur (often times cheaper and more flexible to do so). You will have to use your own payment method, but you will be reimbursed. Once you've booked the hotel, send a message to MyASUTRIP@exchange.asu.edu with the subject line: **Lodging Booked Outside of Concur**. Let them know the 4 digit request ID, the amount and attach the confirmation receipt. 
+Hotels can be booked outside of Concur (often times cheaper and more flexible to do so). You will have to use your own payment method, but you will be reimbursed. Once you've booked the hotel, send a message to MyASUTRIP@exchange.asu.edu with the subject line: **Lodging Booked Outside of Concur**. Let them know the 4 digit request ID, the amount and attach the confirmation receipt. If you book an Airbnb, be sure to also send them the address (AirBnb sometimes does not include it in the receipt).
 
 
 *Note: For travel to Oahu or Hawai'i, ASU has a contract with the Price Hotel which has locations on both islands. If the dates you are travelling are available, ask for the group code and book outside of Concur*
